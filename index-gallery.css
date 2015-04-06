@@ -1,0 +1,19 @@
+.gallery {
+	width: 170%;
+}
+
+.gallery p{
+	width: 23%;
+	margin-right: 50%;
+	margin-top: 40px;
+	float: right;
+	
+}
+.gallery img {
+	width: 25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.gallery>.line {
+	margin: 0;
+}

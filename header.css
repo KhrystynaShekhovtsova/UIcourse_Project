@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Rupster Script";
+  src: url("fonts/rupster.ttf");
+}
+@font-face {
+ 	font-family: "Open Sans";
+  	src: url("fonts/open sans.ttf");
+}
+@font-face {
+	font-family: "Dark Euphorigenic";
+	src: url("fonts/Dark Euphorigenic.ttf");
+}
+@font-face {
+	font-family: "Rosa Marena";
+	src: url("fonts/Rosa Marena.ttf");
+}
+body {
+	background-image: url(images/bg-2.png);
+  	margin: 0;
+}
+#wrapper {
+	/*width: 860px;*/
+	width: 70%;
+	margin: auto;
+	background-color: #f8eecf;
+}
+
+.ribbon {
+	width: 119.8%;
+	margin-left: -10%;
+}
+.logo {
+  position: absolute;
+  width: 30%;
+  margin-top: -21px;
+  margin-left: 35%;
+}
+header {
+	position: relative;
+	padding-top: 35px;
+	position: relative;
+	margin-bottom: 40px;
+}
+header>ul {
+	position: absolute;
+	
+}
+header>ul, li {
+	display: inline-block;
+	list-style: none;	
+}
+li>a {
+	text-decoration: none;
+	font-family: "Open Sans", Verdana, Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FAF4D9;
+}
+.left-menu, .right-menu {
+	margin-top: -6.5%;
+}
+.left-menu a:hover, .right-menu a:hover{
+	border-bottom: 3px solid #FAF4D9;
+    border-top: 3px solid #FAF4D9;
+    text-shadow: 0px 3px 6px rgba(203, 123, 68, 0.4);
+}
+.right-menu {
+	right: 0;
+}
+
+.right-menu a {
+	margin-right: 20px;
+}
+.left-menu a {
+	margin-left: 20px;
+}
+.first_letter {
+	font-family: "Rosa Marena", Verdana, Helvetica;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+p {
+	text-align: justify;
+	width: 88%;
+}
+h2 {
+	font-size: 1.3em;
+}
+.line {
+  width: 50%;
+  height: 1px;
+  margin: auto;
+  background-color: #6b7f57;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 6px rgba(203, 123, 68, 0.9);
+  
+}
+.content {
+	margin-left: 7%;
+	font-family: "Open Sans", Verdana, Helvetica;
+	color: #786330;
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+.main {
+	margin-left: 11%;
+}
+.footer p {
+	text-align: center;
+	opacity: 0.5;
+	font-family: "Open Sans", Verdana, Helvetica;
+	font-size: 0.9em;
+	color: #615026;
+	padding-bottom: 30px;	
+}
+.clear {
+	clear: both;
+}

@@ -1,0 +1,20 @@
+.interesting {
+	width: 120%;
+}
+.interesting div {
+	width: 70%;
+	border: 1px solid #6b7f57;
+	border-radius: 5px;
+	background-color: #FBF7E0;
+	margin-top: 20px;
+}
+.interesting img {
+	width: 15%;
+	margin: 20px;
+}
+.interesting p {
+	width: 75%;
+	margin-right: 4%;
+	margin-top: 40px;
+	float: right;
+}
